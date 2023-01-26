@@ -116,14 +116,4 @@ h3 {
   background-color:rgb(38, 35, 54);
   color: antiquewhite;
 }
-@media (min-width: 769px) {
-  .styleApp{
-    width: 500px;
-    height: 300px;
-  }
-  h3{
-    font-size: 20px;
-    margin-left: 20px;
-  }
-}
 </style>

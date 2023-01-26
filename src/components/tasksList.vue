@@ -90,10 +90,4 @@ const doneTASK = (index) => {
   background-color: rgb(38, 35, 54);
   padding-left: 0px;
 }
-@media (min-width: 769px) {
-  .listStyle {
-    width: 400px;
-    margin-left: 220px;
-  }
-}
 </style>
