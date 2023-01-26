@@ -1,24 +1,8 @@
-# checklist
+Prueba checklist para Alexandra Lozano Immigration Law
 
-## Project setup
-```
-npm install
-```
+Autoria: Martin Iglesias
+Framework utilizado: VueJS 3 (Composition API) a traves de cliente CLI
+Herramientas utilizadas: HTML, CSS, Javascript, Bootstrap
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Para iniciar el proyecto:
+1-Abrir tu editor de codigo, luego una nueva terminal y tipear git clone
