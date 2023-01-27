@@ -1,7 +1,5 @@
 <template>
-  <SEct>
-    <!-- SECCION TASK LIST AND BUTTOMS -->
-  </SEct>
+  <!-- SECCION TASK LIST AND BUTTOMS -->
   <div class="card customTask" style="width: 18rem">
     <ul class="contentTask">
       <li v-for="(task, index) in props.tasks" :key="task" class="listStyle">
