@@ -1,4 +1,7 @@
 <template>
+  <SEct>
+    <!-- SECCION TASK LIST AND BUTTOMS -->
+  </SEct>
   <div class="card customTask" style="width: 18rem">
     <ul class="contentTask">
       <li v-for="(task, index) in props.tasks" :key="task" class="listStyle">
@@ -36,13 +39,13 @@
 
 <script setup>
 import { defineProps, defineEmits } from "vue";
-//TOMANDO LA PROP MANDADA POR EL COMPONENTE PADRE
+//PROP COMMANDED BY PARENT COMPONENT
 const props = defineProps({
   tasks: Array,
 });
-//TOMANDO LA FUNCION MANDADA POR EL COMPONENTE PADRE
+//TAKING THE FUNCTION SENT BY THE PARENT COMPONENT
 const emit = defineEmits(["deleteTask", "doneTask"]);
-//EMITIENDO LA PETICION AL COMPONENTE PADRE PARA USAR LAS FUNCIONES DE BORRAR Y "REALIZADO"
+//REQUESTING THE PARENT COMPONENT TO USE THE FUNCTIONS DELETE AND DONE
 const deleteTASK = (index) => {
   emit("deleteTask", index);
 };
